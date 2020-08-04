@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.learn-more{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+}
+.learn-more .button{
+    margin: 2rem;
+}
+.learn-more .inter-div{
+    text-align: center;
+    padding: 1rem;
+}
+.learn-more .inter-div .cards{
+    text-align: center;
+    
+}
+.learn-more .inter-div .cards img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

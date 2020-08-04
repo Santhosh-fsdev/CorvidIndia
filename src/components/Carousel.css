@@ -1,0 +1,12 @@
+.carousel{
+    max-height: 700px !important;
+    position: relative  ;
+    top:0;   
+}
+.thumbs-wrapper {
+    display: none;
+}
+.carousel .control-dots .dot{
+    width: 15px;
+    height: 15px;
+}
