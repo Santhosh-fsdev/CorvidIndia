@@ -6,6 +6,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
+import Paper from '@material-ui/core/Paper';
+
 import CardContent from '@material-ui/core/CardContent';
 import image1 from "../images/image1.jpg";
 import image2 from "../images/image2.jpg";
@@ -13,8 +15,12 @@ import image3 from "../images/image3.jpg";
 import "./Content1.css"
 export default function Content1() {
     return (
+        
+        
         <Container className="learn-more" maxWidth="md">
+        <Paper  elevation={12}>
             <Grid className="inter-div" container >
+            
                 <Grid className="cards" item xs={12} md={4} sm={4}>
                     <Card >
                     <CardContent>
@@ -61,10 +67,11 @@ export default function Content1() {
 
                     </Card>
                 </Grid>
-
+                
             </Grid>
+            
             <Button className="button" variant="outlined">Learn More</Button>
-
+            </Paper>
         </Container>
     )
 }

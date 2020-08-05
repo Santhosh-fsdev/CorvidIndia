@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .learn-more{
     font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
     text-align: center;
 }
 .learn-more .button{
@@ -9,7 +8,7 @@
 }
 .learn-more .inter-div{
     text-align: center;
-    padding: 1rem;
+    padding: 5rem;
 }
 .learn-more .inter-div .cards{
     text-align: center;
@@ -19,4 +18,10 @@
     display: block;
     width: 100%;
     height: auto;
+}
+@media screen and (max-width: 596px) {
+.learn-more .inter-div{
+    text-align: center;
+    padding: 0;
+}
 }

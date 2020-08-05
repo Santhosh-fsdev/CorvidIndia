@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+.content2{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.grid2{
+    padding: 2rem;
+}
+.grid2 .grid-image{
+    height: 500px;
+}
+.grid2 .item2{
+    text-align: left;
+}
+.grid2 .item2 .paper-content{
+    padding: 1rem;
+    font-family: 'Share Tech Mono', monospace;
+}

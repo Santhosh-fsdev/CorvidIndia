@@ -1,24 +1,15 @@
 import React, { useState } from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars} from '@fortawesome/free-solid-svg-icons'
 import "./Header.css";
 
 export default function Header() {
   const [toggle,setToggle] = useState(false);
-  const [sticky,setSticky] = useState(false);
-
-  const scroll = () =>{
-      if(window.pageYOffset >= 300){
-            setSticky(true);
-      }
-      else{
-          setSticky(false);
-      }
-  }
   return (
     <>
-      <nav className= { sticky ? "navbar sticky":"navbar "} onScroll={scroll} >
+      <nav className= "navbar " >
         <span className="navbar-toggle" id="js-navbar-toggle" onClick={()=>setToggle(!toggle)} >
-            <i className="fa fa-bars" aria-hidden="true" style={{color:"#000000"}}></i>
+        <FontAwesomeIcon icon={faBars} style={{color:"#000000"}} />
         </span>
         <a href="#" className="logo">Corvid Consulting</a>
         <ul className={ toggle ? " main-nav active":"main-nav"} id="js-menu">
