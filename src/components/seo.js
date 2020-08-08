@@ -29,7 +29,7 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s | ${site.siteMetadata.title} - ${site.siteMetadata.description}`}
       meta={[
         {
           name: `description`,
@@ -63,6 +63,7 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        
       ].concat(meta)}
     >
     </Helmet>

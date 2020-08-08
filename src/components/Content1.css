@@ -8,12 +8,19 @@
 }
 .learn-more .inter-div{
     text-align: center;
-    padding: 5rem;
+    padding-left: 5rem;
 }
 .learn-more .inter-div .cards{
     text-align: center;
+    margin: 2rem;
     
 }
+.font-icons{
+    font-size: 2rem;
+    margin: 1rem;
+    color: blue;
+}
+
 .learn-more .inter-div .cards img{
     display: block;
     width: 100%;
@@ -24,4 +31,8 @@
     text-align: center;
     padding: 0;
 }
+.MuiCardContent-root{
+    padding: 0;
 }
+}
+

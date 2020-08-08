@@ -15,9 +15,8 @@ body {
     padding-bottom: 10px;
     color: red;
     justify-content: center !important;
-    position: static;
+    position: fixed;
     background: hsl(0, 0%, 100%);
-    top: 30px;
     z-index: 10;
     width: 100%;
 
@@ -97,7 +96,7 @@ body {
         padding-bottom: 0;
         height: 70px;
         align-items: center;
-        position: static;
+        position: fixed;
     }
 
     .main-nav {

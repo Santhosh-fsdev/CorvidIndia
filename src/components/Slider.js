@@ -5,6 +5,7 @@ import image3 from "../images/image3.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import "./Carousel.css";
+import { faCalendar } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Slider() {
@@ -12,7 +13,7 @@ export default function Slider() {
         <div>
              <Carousel className="carousel" autoPlay>
                 <div>
-                    <img src={image1} alt="first"/>
+                    <img src={image1} style={{display:"block",width:"100%",height:"auto"}} alt="first"/>
                     
                 </div>
                 <div>

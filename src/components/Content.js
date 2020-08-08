@@ -12,17 +12,15 @@ export default function Content() {
 
     <div className="content1" >
       <Container maxWidth="md">
-        <h3>CorvidIndia</h3>
+        <h3>Corvid Consulting - Growth Hacking, Data Science, Analytics, AI Consulting Firm</h3>
 
-        <p>Something short and leading about the collection below—its contents, the creator, etc.
-        Make it short and sweet, but not too short so folks don&apos;t simply skip over it
-              entirely.</p>
+        <p>We help companies to build comprehensive set of tools that help solve business critical challenges and accelerate innovation in data science, machine learning, and artificial intelligence at scale.</p>
 
         <div >
-          <Grid container spacing={2} justify="left">
+          <Grid container spacing={2} style={{justifyContent:"left"}}>
             <Grid item>
               <Button variant="contained" color="primary">
-                Main call to action
+                Get Started
                   </Button>
             </Grid>
           </Grid>

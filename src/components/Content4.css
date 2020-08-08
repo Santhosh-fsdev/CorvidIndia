@@ -7,14 +7,14 @@
 .content4 .content4-card{
     background-color: #252a31;
     color: #ffffff;
-    height: 250px;
+    min-height: 300px;
 }
 .content4 .content4-card .content4-button{
     justify-content: center;
     color: #ffffff;
 }
 .content4 .content4-card .content4-content{
-    padding: 5rem;
+    padding: 3rem;
 }
 .content4 .footer{
     background-color: #000000;
@@ -31,8 +31,15 @@
 }
 .content4 .footer .footer-div .footer-grid2 div{
     color: #ffffff;
-    padding:1rem;
+    padding:1.5rem;
     text-align: left;
+} 
+.content4 .footer .footer-div .footer-grid2 div ul li{
+    list-style: none;
+    margin-left: -1rem;
+}
+.content4 .footer .footer-div .footer-grid2 div h3{
+    margin-left:0.5rem;
 }
 .copyrights{
     background-color: #000000;

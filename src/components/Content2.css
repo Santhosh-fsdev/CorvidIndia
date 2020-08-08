@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 .content2{
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -18,5 +17,15 @@
 }
 .grid2 .item2 .paper-content{
     padding: 1rem;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+.font-icons1{
+    font-size: 15rem;
+    color: blue;
+    transition: all 1s ease;
+}
+.font-icons1:hover{
+    
+    transform: scale(1.2);
+    color: #cccccc;
 }
